@@ -35,14 +35,40 @@ img {
     ---
     Default markup for page level elements
 */
+html {
+  font-size: 100%;
+  font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
+  line-height: 1.5;
+  color: #212529;
+}
+
 /*
     Customize the background color and color to match your design.
 */
+::-moz-selection {
+  background-color: #4c6ef5;
+  color: white;
+}
+::selection {
+  background-color: #4c6ef5;
+  color: white;
+}
+
 /*
     Elements: typography
     ---
     Default markup for typographic elements
 */
+h1 {
+  font-style: 1.8020324707rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-style: 1.423828125rem;
+  font-weight: 700;
+}
+
 /*---------------------------------------/*
  # OBJECTS
 /*---------------------------------------*/
